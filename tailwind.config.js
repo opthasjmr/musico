@@ -11,6 +11,9 @@ module.exports = {
         primary: 'var(--primary)',
         secondary: 'var(--secondary)',
       },
+      gridTemplateColumns: {
+        '16': 'repeat(16, minmax(0, 1fr))',
+      },
     },
   },
   plugins: [],
